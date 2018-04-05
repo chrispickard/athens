@@ -1,6 +1,9 @@
 build:
 	cd cmd/proxy && buffalo build
 
+dev:
+	cd cmd/proxy && buffalo dev
+
 run: build
 	./athens
 	
